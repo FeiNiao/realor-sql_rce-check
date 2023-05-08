@@ -27,3 +27,5 @@ python .\realor-sql_rce-check.py -f .\host.txt
 ![image](https://user-images.githubusercontent.com/66779835/236744494-679a2e6c-a77c-4fb5-8dbe-db2638fa0434.png)
 
 
+## getshell
+由于漏洞较新，后续会放出

@@ -11,3 +11,19 @@
 由于用户滥用造成的一切后果与作者无关。
 
 切勿用于非法用途，非法使用造成的一切后果由自己承担，与作者无关。
+
+
+# realor-sql_rce-check
+瑞友天翼sql webshell写入文件导致rce检测脚本
+
+
+## 食用方法
+
+`
+python .\realor-sql_rce-check.py -f .\host.txt
+`
+##### 效果图
+
+![image](https://user-images.githubusercontent.com/66779835/236744494-679a2e6c-a77c-4fb5-8dbe-db2638fa0434.png)
+
+

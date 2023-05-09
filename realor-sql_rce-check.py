@@ -2,6 +2,16 @@ import requests
 import sys
 import re
 
+banner="""
+ ______   _ _   _ _             
+|  ____| (_) \ | (_)            
+| |__ ___ _|  \| |_  __ _  ___  
+|  __/ _ \ | . ` | |/ _` |/ _ \ 
+| | |  __/ | |\  | | (_| | (_) |
+|_|  \___|_|_| \_|_|\__,_|\___/ 
+                version:1.3
+"""
+
 def check(url):
     check = "/RapAgent.xgi?CMD=GetRegInfo"
     urls = url + check
@@ -21,7 +31,7 @@ def check(url):
 
 file_path = sys.argv[2]
 file = open(file_path,'r',encoding='UTF-8').read().split()
-
+print(banner)
 
 for i in file:
     if "http" not in i:
